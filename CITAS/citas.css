@@ -1,0 +1,70 @@
+.section-one {
+   width: 100%;
+   background-color: aquamarine;
+}
+
+.section-two {
+   width: 100%;
+   background-color: aquamarine;
+}
+
+/* .container {
+   margin: auto;
+   width: 500px;
+   border: 10px;
+   border-color: black;
+} */
+
+.container-1 {
+   margin: auto;
+   width: 500px;
+   padding: 50px;
+   /* margin: 100px 0px 100px 700px; */
+   background-color: blue;
+   border: 2px;
+   border-color: black;
+   border-radius: 10px;
+}
+
+.container-2 {
+   margin: auto;
+   width: 500px;
+   padding: 50px;
+   background-color: blue;
+   border: 2px;
+   border-color: black;
+   border-radius: 10px;
+
+}
+
+.container-3 {
+   margin: auto;
+   width: 500px;
+   padding: 50px;
+   background-color: blue;
+   border: 2px;
+
+
+
+
+}
+
+.container-4 {
+   margin: auto;
+   width: 500px;
+}
+
+.container-5 {
+   margin: auto;
+   width: 500px;
+}
+
+.container-6 {
+   margin: auto;
+   width: 500px;
+}
+
+/*cuando he puesto sólo "container" a la clase, 
+no aplica las características. 
+He tenido que nombrarlos uno a uno . Si cambio el 
+nombre de la clase y eliminandole el guión el guion, me hace algo de caso */
