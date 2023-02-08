@@ -1,119 +1,45 @@
- * {
-    margin: 0;
-    padding: 0;
+body {
+   padding: 0;
+   margin: 0;
+}
 
- }
+.contenedor-padre {
+   display: flex;
+}
 
- p {
-    padding: 10px;
- }
+.section {
+   /* display: flex; */
+   /* text-align: center; */
+   /* flex-direction: column; */
+   /* flex-wrap: wrap; */
+   align-content: flex-end;
 
- .section-one {
-    width: 100%;
-    background-color: blue;
-    /* padding: 20px 0px; */
+}
 
- }
+h1 {
+   text-align: center;
+}
 
- .section-two {
-    width: 100%;
-    background-color: aquamarine;
+p {
+   /* display: block; */
+   padding: 3px;
+   margin: auto;
+   border: 2px solid;
+   border-color: black;
+   border-radius: 10px;
+   height: 200px;
+   width: 500px;
+   font-family: Arial, Helvetica, sans-serif;
 
- }
+}
 
- .section-three {
-    width: 100%;
-    background-color: aquamarine;
- }
+img {
+   /* position: relative; */
+   float: right;
+   right: 20px;
+}
 
- .section-four {
-    width: 100%;
-    background-color: aquamarine;
- }
-
- .section-five {
-    width: 100%;
-    background-color: aquamarine;
- }
-
- .section-six {
-    width: 100%;
-    background-color: aquamarine;
- }
-
- /* .container {
-    margin: auto;
-    width: 500px;
-    border: 10px;
-    border-color: black;
- } */
-
- .container-1 {
-    margin: auto;
-    width: 500px;
-    /* padding: 500px; */
-    /* margin: 100px 0px 100px 700px; */
-    background-color: rgb(152, 203, 250);
-    border: 2px;
-    border-color: black;
-    border-radius: 10px;
- }
-
- .container-2 {
-    margin: auto;
-    border: 0;
-    width: 500px;
-    padding: 50px;
-    background-color: rgb(152, 203, 250);
-    border: 2px;
-    border-color: black;
-    border-radius: 10px;
-
- }
-
- .container-3 {
-    margin: auto;
-    border: 0;
-    width: 500px;
-    padding: 50px;
-    background-color: blue;
-    border: 2px;
-    border-radius: 10px;
-
-
- }
-
- .container-4 {
-    margin: auto;
-    width: 500px;
-    padding: 50px;
-    background-color: blue;
-    border: 2px;
-    border-radius: 10px;
-
- }
-
- .container-5 {
-    margin: auto;
-    width: 500px;
-    padding: 50px;
-    background-color: blue;
-    border: 2px;
-    border-radius: 10px;
-
- }
-
- .container-6 {
-    margin: auto;
-    width: 500px;
-    padding: 50px;
-    background-color: blue;
-    border: 2px;
-    border-radius: 10px;
-
- }
-
- /*cuando he puesto sólo "container" a la clase, 
-no aplica las características. 
-He tenido que nombrarlos uno a uno . Si cambio el 
-nombre de la clase y eliminandole el guión el guion, me hace algo de caso */
+.container-1 {
+   display: flex;
+   justify-content: space-around;
+}
